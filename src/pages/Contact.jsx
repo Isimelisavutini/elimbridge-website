@@ -150,7 +150,7 @@ export default function Contact() {
                   aria-invalid={!!errors.message} aria-describedby={describedBy('message', true)} />
               </Field>
               <div>
-                <button type="submit" className="btn btn-primary" disabled={status === 'sending'}>
+                <button type="submit" className="btn btn-primary contact-submit" disabled={status === 'sending'}>
                   {status === 'sending' ? 'Sending…' : 'Request a proposal'}
                 </button>
                 <p className="small muted" style={{ marginTop: 'var(--space-3)' }}>

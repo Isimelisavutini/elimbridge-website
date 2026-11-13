@@ -36,7 +36,7 @@ export default function Services() {
             <p className="muted" style={{ margin: 'var(--space-2) 0 var(--space-5)' }}>
               Describe the problem and we will scope it.
             </p>
-            <Link to="/contact?service=not-sure" className="btn btn-primary">Request a proposal</Link>
+            <Link to="/contact?service=not-sure" className="btn btn-primary contact-submit">Request a proposal</Link>
           </div>
         </div>
       </section>

@@ -8,9 +8,19 @@ export default function Header() {
 
   useEffect(() => setOpen(false), [pathname]);
 
+  // Close the phone menu with Escape or a tap outside the header.
+  useEffect(() => {
+    if (!open) return undefined;
+    const onKey = (e) => { if (e.key === 'Escape') setOpen(false); };
+    const onClick = (e) => { if (!e.target.closest('.site-header')) setOpen(false); };
+    document.addEventListener('keydown', onKey);
+    document.addEventListener('click', onClick);
+    return () => { document.removeEventListener('keydown', onKey); document.removeEventListener('click', onClick); };
+  }, [open]);
+
   return (
     <header className="site-header">
-      <div className="container">
+      <div className="container header-bar">
         <Link to="/" className="logo" aria-label="Elim Bridge Technologies, home">
           <img src="/elimbridge-lockup-reversed.svg" alt="Elim Bridge Technologies" width="238" height="40" />
         </Link>
