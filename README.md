@@ -57,6 +57,10 @@ Colours, type and layout follow the Elim Bridge Technologies brand guidelines (A
 
 The build copies `index.html` to `404.html` so links like `/services` work on static hosts.
 
+## Team
+
+Built and maintained by Elim Bridge's Web Development team (led by Thomas, AI Operations Manager). Team standards, decisions, status and roadmap live in the private repo `Isimelisavutini/elimbridge-ai-agent-teams` under `departments/web-development/`.
+
 ## Before launch
 
 - [x] Add the three director photos to `public/team/`
