@@ -7,8 +7,7 @@ export const business = {
   abn: '23 904 305 868',
   tagline: 'Connecting People. Empowering the Future.',
   location: 'Sydney, NSW',
-  // TODO: switch to info@elimbridge.com.au once that mailbox or alias exists.
-  email: 'dave@elimbridge.com.au',
+  email: 'info@elimbridge.com.au',
   // Public phone numbers are still an open decision. Add them here and they
   // appear on the Contact page and in the footer, e.g. { label: 'Australia', number: '+61 ...' }
   phones: [],

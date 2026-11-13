@@ -60,7 +60,8 @@ The build copies `index.html` to `404.html` so links like `/services` work on st
 ## Before launch
 
 - [x] Add the three director photos to `public/team/`
-- [ ] Decide the public email (info@elimbridge.com.au) and phone numbers, and update `site.js`
+- [x] Public email set to info@elimbridge.com.au
+- [ ] Add public phone numbers to `site.js`
 - [ ] Have the privacy policy reviewed
 - [ ] Connect the form to a form service, or confirm the email-app approach
 - [ ] Point elimbridge.com.au at the host
