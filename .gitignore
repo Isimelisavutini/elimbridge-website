@@ -15,4 +15,5 @@ build/
 # Secrets and local settings
 .env
 .env.*
+!.env.example
 *.log

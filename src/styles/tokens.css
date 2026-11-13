@@ -1,0 +1,44 @@
+/* Elim Bridge Technologies — design tokens (from the brand guidelines, v1.0) */
+:root {
+  /* Australian flag colours */
+  --flag-blue: #012169;   /* PMS 280 C */
+  --flag-red: #E4002B;    /* PMS 185 C */
+  --flag-white: #FFFFFF;
+
+  /* Roles */
+  --brand: #012169;
+  --on-brand: #FFFFFF;
+  --brand-tint: #DCE3F2;
+  --surface: #FFFFFF;
+  --surface-alt: #F4F6FA;
+  --ink: #0B1533;
+  --ink-muted: #4A5570;
+  --line: #D6DCE8;
+  --line-strong: #7C8698;
+  --link: #012169;
+  --accent-text: #B5001F;
+  --focus: #2F54B8;
+  --success: #1F7A4D;
+  --error: #B5001F;
+
+  /* Type */
+  --font-sans: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
+  --font-mono: "IBM Plex Mono", "SFMono-Regular", Consolas, monospace;
+
+  /* Spacing */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+  --space-8: 64px;
+  --space-9: 96px;
+  --container: 1200px;
+
+  /* Radius */
+  --radius-0: 0px;
+  --radius-sm: 2px;
+  --radius-md: 4px;
+}
